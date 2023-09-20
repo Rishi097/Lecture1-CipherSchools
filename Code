@@ -1,7 +1,5 @@
-num1 = float(input("Enter the first number: "))
-num2 = float(input("Enter the second number: "))
-num3 = float(input("Enter the third number: "))
-
-average = (num1 + num2 + num3) / 3
-
-print("The average of {} , {} , and {} is {:.2f}".format(num1, num2, num3, average))
+num1=input("enter first number :")
+num2=input("enter second number :")
+num3=input("enter third number :")
+# (int(num1) + (int(num2) + (int(num3)) / 3
+print(f"average of three numbers : {(int(num1)) + (int(num2)) + (int(num3)) / 3}")
